@@ -36,5 +36,5 @@ public class StoreLogin extends AppCompatActivity {
     }
 
     //after typing in the password, the button to continue appears
-    
+
 }
