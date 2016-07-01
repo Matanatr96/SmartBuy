@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void storeOwner(View v) {
-        Intent newI = new Intent(this, StoreLogin.class);
+        Intent newI = new Intent(this, StoreMain.class);
         startActivity(newI);
     }
 

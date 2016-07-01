@@ -45,6 +45,10 @@
         <activity
             android:name=".StoreRegistration"
             android:label="@string/title_activity_store_registration"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".StoreMain"
+            android:label="@string/title_activity_store_main"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar"></activity>
     </application>
 
