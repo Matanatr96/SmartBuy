@@ -41,4 +41,9 @@ public class MainActivity extends AppCompatActivity {
         Intent newI = new Intent(this, StoreLogin.class);
         startActivity(newI);
     }
+
+    public void drive(View v) {
+        Intent i = new Intent(this, DriverLogin.class);
+        startActivity(i);
+    }
 }
