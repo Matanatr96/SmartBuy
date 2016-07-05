@@ -31,7 +31,7 @@
         </activity>
         <activity
             android:name=".StoreLogin"
-            android:label="@string/title_activity_store_login"
+            android:label="Store Login"
             android:windowSoftInputMode="adjustResize|stateHidden" />
 
         <meta-data
@@ -40,16 +40,18 @@
 
         <activity
             android:name=".DriverLogin"
-            android:label="@string/title_activity_driver_login"
+            android:label="Driver Login"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
         <activity
             android:name=".StoreRegistration"
-            android:label="@string/title_activity_store_registration"
+            android:label="Store Registration"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
         <activity
             android:name=".StoreMain"
-            android:label="@string/title_activity_store_main"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar"></activity>
+            android:label="Inventory"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+
+        </activity>
     </application>
 
 </manifest>
