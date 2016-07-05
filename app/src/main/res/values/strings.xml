@@ -6,5 +6,6 @@
     <string name="title_activity_driver_login">DriverLogin</string>
     <string name="title_activity_store_registration">StoreRegistration</string>
     <string name="title_activity_store_main">StoreMain</string>
-    <string name="orders">order</string>
+    <string name="orders">Orders</string>
+    <string name="search">Search</string>
 </resources>
