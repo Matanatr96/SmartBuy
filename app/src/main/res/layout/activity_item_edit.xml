@@ -84,7 +84,8 @@
         android:layout_marginBottom="17dp"
         android:layout_alignParentBottom="true"
         android:layout_toLeftOf="@+id/button2"
-        android:layout_toStartOf="@+id/button2" />
+        android:layout_toStartOf="@+id/button2"
+        android:onClick="cancel"/>
 
     <Button
         android:layout_width="wrap_content"
@@ -93,6 +94,7 @@
         android:id="@+id/button5"
         android:layout_alignTop="@+id/button4"
         android:layout_toRightOf="@+id/view2"
-        android:layout_toEndOf="@+id/view2" />
+        android:layout_toEndOf="@+id/view2"
+        android:onClick="cancel"/>
 
 </RelativeLayout>
