@@ -8,4 +8,5 @@
     <string name="title_activity_store_main">StoreMain</string>
     <string name="orders">Orders</string>
     <string name="search">Search</string>
+    <string name="title_activity_item_edit">ItemEdit</string>
 </resources>
