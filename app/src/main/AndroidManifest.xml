@@ -57,6 +57,10 @@
         <activity
             android:name=".OrdersActivity"
             android:label="@string/title_activity_orders"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".IndividualOrderActivity"
+            android:label="@string/title_activity_individual_order"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar"></activity>
     </application>
 
