@@ -69,6 +69,10 @@
         <activity
             android:name=".DriverAccountActivity"
             android:label="@string/title_activity_driver_account"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".DeliveryActivity"
+            android:label="@string/title_activity_delivery"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar"></activity>
     </application>
 

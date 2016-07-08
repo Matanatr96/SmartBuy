@@ -13,4 +13,5 @@
     <string name="title_activity_individual_order">IndividualOrderActivity</string>
     <string name="title_activity_driver_verification_activiy">DriverVerificationActiviy</string>
     <string name="title_activity_driver_account">DriverAccountActivity</string>
+    <string name="title_activity_delivery">DeliveryActivity</string>
 </resources>
