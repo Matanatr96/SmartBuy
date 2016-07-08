@@ -1,5 +1,6 @@
 package com.example.anush.smartbuy;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -33,6 +34,9 @@ public class StoreMain extends AppCompatActivity {
             case R.id.orders:
                 Toast.makeText(this, "You have selected the Orders Menu", Toast.LENGTH_SHORT).show();
                 return true;
+            case R.id.delieries:
+                Intent intent = new Intent(this, DeliveryActivity.class);
+                startActivity(intent);
         }
 
         return true;
