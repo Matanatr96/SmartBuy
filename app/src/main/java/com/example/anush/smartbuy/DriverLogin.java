@@ -22,4 +22,9 @@ public class DriverLogin extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void login(View v) {
+        Intent intent = new Intent(this, DriverAccountActivity.class);
+        startActivity(intent);
+    }
+
 }

@@ -68,9 +68,21 @@
         android:text="Get Verified!"
         android:id="@+id/textView25"
         android:textColor="#AAAAAA"
-        android:layout_above="@+id/Registration"
-        android:layout_centerHorizontal="true"
         android:layout_marginBottom="20dp"
-        android:onClick="verification"/>
+        android:onClick="verification"
+        android:layout_above="@+id/Registration"
+        android:layout_alignLeft="@+id/Registration"
+        android:layout_alignStart="@+id/Registration" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Login"
+        android:id="@+id/textView34"
+        android:layout_alignTop="@+id/textView25"
+        android:layout_alignRight="@+id/logo"
+        android:layout_alignEnd="@+id/logo"
+        android:onClick="login"/>
 
 </RelativeLayout>
