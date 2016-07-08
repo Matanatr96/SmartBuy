@@ -61,6 +61,14 @@
         <activity
             android:name=".IndividualOrderActivity"
             android:label="@string/title_activity_individual_order"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".DriverVerificationActivity"
+            android:label="@string/title_activity_driver_verification_activiy"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".DriverAccountActivity"
+            android:label="@string/title_activity_driver_account"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar"></activity>
     </application>
 

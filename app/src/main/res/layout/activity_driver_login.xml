@@ -60,4 +60,17 @@
         android:textSize="18dp"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Get Verified!"
+        android:id="@+id/textView25"
+        android:textColor="#AAAAAA"
+        android:layout_above="@+id/Registration"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:onClick="verification"/>
+
 </RelativeLayout>

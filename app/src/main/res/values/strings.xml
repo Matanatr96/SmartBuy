@@ -11,4 +11,6 @@
     <string name="title_activity_item_edit">ItemEdit</string>
     <string name="title_activity_orders">OrdersActivity</string>
     <string name="title_activity_individual_order">IndividualOrderActivity</string>
+    <string name="title_activity_driver_verification_activiy">DriverVerificationActiviy</string>
+    <string name="title_activity_driver_account">DriverAccountActivity</string>
 </resources>
