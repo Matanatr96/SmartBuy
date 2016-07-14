@@ -18,9 +18,9 @@
         android:layout_height="wrap_content"
         android:text="Username"
         android:id="@+id/textView"
-        android:layout_centerVertical="true"
-        android:layout_alignLeft="@+id/editText"
-        android:layout_alignStart="@+id/editText" />
+        android:layout_below="@+id/logo"
+        android:layout_alignRight="@+id/textView2"
+        android:layout_alignEnd="@+id/textView2" />
 
     <EditText
         android:layout_width="wrap_content"
@@ -56,10 +56,11 @@
         android:layout_height="wrap_content"
         android:text="No account? Register here!"
         android:id="@+id/Registration"
-        android:layout_marginBottom="22dp"
         android:textSize="18dp"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_below="@+id/textView25"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_alignStart="@+id/textView"
+        android:layout_marginTop="36dp" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -68,11 +69,11 @@
         android:text="Get Verified!"
         android:id="@+id/textView25"
         android:textColor="#AAAAAA"
-        android:layout_marginBottom="20dp"
         android:onClick="verification"
-        android:layout_above="@+id/Registration"
-        android:layout_alignLeft="@+id/Registration"
-        android:layout_alignStart="@+id/Registration" />
+        android:layout_below="@+id/editText2"
+        android:layout_alignLeft="@+id/editText2"
+        android:layout_alignStart="@+id/editText2"
+        android:layout_marginTop="42dp" />
 
     <TextView
         android:layout_width="wrap_content"

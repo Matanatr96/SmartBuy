@@ -34,7 +34,7 @@ public class StoreMain extends AppCompatActivity {
             case R.id.orders:
                 Toast.makeText(this, "You have selected the Orders Menu", Toast.LENGTH_SHORT).show();
                 return true;
-            case R.id.delieries:
+            case R.id.deliveries:
                 Intent intent = new Intent(this, DeliveryActivity.class);
                 startActivity(intent);
         }
